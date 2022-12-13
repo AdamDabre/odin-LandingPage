@@ -1,9 +1,12 @@
 
 .title,.Top,.header,#slogan{
     border-style: solid;
+    border-color: blueviolet;
 }
 .Top{
     font-family: 'Montserrat', sans-serif;
+    background-color: #1f2937;
+    color: aliceblue;
 }
 .header{
     display: flex;
@@ -11,3 +14,4 @@
 #headerLogo{
     margin-right: auto;
 }
+
