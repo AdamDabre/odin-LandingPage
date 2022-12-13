@@ -1,0 +1,13 @@
+
+.title,.Top,.header,#slogan{
+    border-style: solid;
+}
+.Top{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+}
+#headerLogo{
+    margin-right: auto;
+}
