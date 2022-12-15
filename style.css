@@ -1,4 +1,4 @@
-
+/* Top part of the webpage*/
 .Top{
     font-family: 'Montserrat', sans-serif;
     background-color: #1e2e46;
@@ -8,6 +8,8 @@
     display: flex;
     font-weight: bold;
     font-size: 20px;
+    border-left: 20px;
+    border-right: 20px;
 }
 #headerLogo{
     margin-right: auto;
@@ -37,3 +39,24 @@ button{
     border-radius: 15px; 
 }
 
+
+/* Middle part of the webpage*/
+.middle1{
+    display: flex;
+    align-items: center;
+}
+.imageSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tuoristImage{
+    width:90%;
+}
+#popular{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
